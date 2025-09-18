@@ -1,12 +1,26 @@
 # NFL-Quarterback-Performance-Dashboard
-Tableau Public dashboard on NFL QB performance. Covers passing yards, weekly trends, and projections.
 
-Goal: Analyze NFL quarterback performance using passing yards, weekly trends, and projections.
+**Live Dashboard → [View on Tableau Public] (https://public.tableau.com/shared/GJZJP2GRG?:display_count=n&:origin=viz_share_link)
 
-Data: Data is from hvpkod's data on github at https://github.com/hvpkod/NFL-Data
+---
 
-Process: How you cleaned/prepped the data (mention joining weekly + projection stats).
+### Goal
+Analyze NFL quarterback performance using passing yards, weekly trends, and projections.
 
-Dashboard Features: Top QB passing yards, weekly yard trends, projected vs. actual performance with filters & interactivity. Can select QB through selecting bar on Top QB passing yards graph, or by player name filter in the top right.
+### Data
+Data is from [hvpkod's NFL-Data repo](https://github.com/hvpkod/NFL-Data).
 
-Key Insights: Showed that QB's such as Joe Burrow, Jared Goff, and Lamar Jackson consistently outperformed projections in the 2024 season.
+### Process
+- Imported data from multiple separate CSV files: QB Season stats, QB Weekly stats (one file per week), and QB Weekly Projections(one file per week).
+- Used a wildcard union in Tableau to combine weekly files efficiently.
+- Blended data sources by Player Name to link actual performance with projections.
+- Built interactivity using filters + dashboard actions to sync views across multiple data sources.
+
+### Dashboard Features
+- Top QB passing yards (bar chart)  
+- Weekly yard trends (line chart)  
+- Projected vs. actual performance (line chart)  
+- Filters: select a QB via bar chart or dropdown search  
+
+### Key Insights
+- Joe Burrow, Jared Goff, and Lamar Jackson consistently outperformed projections in the 2024 season.
