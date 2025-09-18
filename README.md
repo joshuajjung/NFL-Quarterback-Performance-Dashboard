@@ -2,6 +2,8 @@
 
 **Live Dashboard → [View on Tableau Public] (https://public.tableau.com/views/NFLQBPerformance/2024NFLQBPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&showOnboarding=true&:display_count=n&:origin=viz_share_link)
 
+Tableau Public dashboard on NFL QB performance. Covers passing yards, weekly trends, and projections.
+
 ---
 
 ### Goal
