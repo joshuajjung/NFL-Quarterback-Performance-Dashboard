@@ -1,6 +1,6 @@
 # NFL-Quarterback-Performance-Dashboard
 
-**Live Dashboard → [View on Tableau Public] (https://public.tableau.com/shared/GJZJP2GRG?:display_count=n&:origin=viz_share_link)
+**Live Dashboard → [View on Tableau Public] (https://public.tableau.com/views/NFLQBPerformance/2024NFLQBPerformanceDashboard?:language=en-US&:sid=&:redirect=auth&showOnboarding=true&:display_count=n&:origin=viz_share_link)
 
 ---
 
